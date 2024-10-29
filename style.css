@@ -1,0 +1,201 @@
+*{
+margin:0px;
+padding:0px;
+ font-family: "Noto Serif Display", serif;
+ font-weight:bold;
+}
+.topheader{
+	height:25px;
+	background-color:grey;
+	font-size:15px;
+	color:white;
+	padding:7px;
+}
+.header{
+	height:80px;
+	font-size:25px;	
+}
+.row{
+	width:100%;
+	padding:10px;
+}
+.header img{
+	width:60px;
+	height:50px;
+	padding-top:10px;
+}
+.menubar{
+	font-size:21px;
+	height:35px;
+	background-color:lightgray;
+}
+.bodypart{
+	height:auto;
+	font-size:18px;
+}
+.footer{
+	height:400px;
+	width:100%;
+	font-size:18px;
+	background-color:black;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.hpart1{
+	width:50%;
+	float:left;
+	color:green;
+	padding-top:4px;
+}
+.login{
+	text-decoration:none;
+	color:white;
+}
+
+.hpart2{
+	width:10%;
+	float:right;
+	background-color:green;
+	text-align:center;
+	padding:8px;
+	margin-right:14px;
+	border-radius:10px;
+	
+
+}
+.hpart2:hover{
+background-color:blue;
+	
+}
+.menubar ul{
+	width:100%;
+	list-style-type:none;
+	
+}
+.menubar ul li{
+	float:left;
+}
+.menubar ul li a {
+	display:block;
+	text-decoration:none;
+	color:black;
+	font-size:16px;
+	padding:8px;
+	font-weight:bold;
+	font-family:'Arial';
+	padding-right:55px;
+	padding-left:55px;
+}
+.menubar ul li a:hover {
+	background-color:green;
+	color:white;
+}
+.sectitle{
+	text-align:center;
+	color:red;
+	font-weight:normal;
+
+}
+.courses{
+	width:80%;
+	margin:0 auto auto;
+}
+.coursediv{
+	width:20%;
+	height:290px;
+	border:1px solid lightgray;
+	box-shadow:3px 6px red;
+	border-radius:10px;
+	float:left;
+	margin:4% 2%;
+	text-align:center;
+	
+
+}
+
+.coursediv img{
+	width:70%;
+	border-radius:10px;
+	
+}
+.coursediv a{
+	text-decoration:none;
+	font-size:20px;
+	width:100%;
+	color:black;
+	padding:10px;
+
+
+}
+.about{
+	width:80%;
+	margin:0 auto auto;
+	text-align:center;
+}
+
+
+.footer{
+	height:300px;
+	width:100%;
+	font-size:18px;
+	background-color:black;
+	color:yellow;
+	padding:30px;
+}
+.footerform{
+	width:350px;
+}
+.footerformbtn{
+	background-color:gray;
+	color:white;
+	width:54%;
+}
+
+.part20{
+	width:20%;
+	float:left;
+}
+.part20 a{
+	text-decoration:none;
+	color:white;
+	margin-right:50px;
+
+}
+.part40{
+	width:43%;
+	float:left;
+}
+
+.loginform{
+	width:25%;
+	margin:0 auto auto;
+	text-align:center;
+}
+.enroll{
+	background-color:green;
+	color:white;
+	text-align:center;
+	width:60%;
+	padding:5px;
+	border-radius:10px;
+	
+	
+	
+}
+.enroll:hover{
+	background-color:indigo;
+}
+	
+
+
+
+
+
+ 

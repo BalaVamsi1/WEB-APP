@@ -1,0 +1,216 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+<title>Website Assignment</title>
+<script type="text/javascript">
+	var courses=new Array();
+	var ccount=0;
+function enrollme(course){
+	courses[ccount]=course;
+	ccount++;
+	var clist="";
+	for(var i=0;i<courses.length;i++)
+		clist=clist+"\n"+courses[i];
+	
+	var message="Congratulation!\n Your successfully enrolled in the following course\n \n  " +clist;
+	alert(message);
+}
+
+
+
+</script>
+</head>
+
+
+<body onload="check()">
+
+
+<div class="topheader" >
+<div class="left">Gmail Id:balavamsilanke1@gmail.com</div>
+<div class="right">Instagram Id:balavamsilanke</div>
+</div>
+
+
+<div class="header">
+<div class=row></div>
+<div class="hpart1">BALAVAMSI WEBSITE</div>
+<div class="hpart2"><a href="index.html" class="login">log out</a></div>
+</div>
+
+<div class="menubar">
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="#courses">Courses</a></li>
+	<li><a href="#about us">About</a></li>
+	<li><a href="#success">Success Milestones</a></li>
+</ul>
+</div>
+
+<div class="bodypart">
+<h1 class="sectitle" id="courses">Courses Available</h1>
+<div class="courses">
+
+<div class="coursediv">
+<img src="images/course/c.png">
+</br/>
+<a href="#">Programming Basics</a>
+<br/><br/>
+<button class="enroll" onclick="enrollme('Programming Basics')">enroll</button>
+</div>
+
+
+<div class="coursediv">
+<img src="images/course/java.png">
+</br/>
+<a href="#">JAVA </a>
+<br/><br/>
+<button class="enroll"onclick="enrollme('JAVA')">enroll</button>
+</div>
+
+
+<div class="coursediv">
+<img src="images/course/jenkins.png">
+</br/>
+<a href="#">Jenkins</a>
+<br/><br/>
+<button class="enroll" onclick="enrollme('Jenkins')">enroll</button>
+</div>
+
+
+<div class="coursediv">
+<img src="images/course/html.png">
+</br/>
+<a href="#">HTML</a>
+<br/><br/>
+<button class="enroll" onclick="enrollme('HTML')">enroll</button>
+</div>
+
+
+<div class="coursediv">
+<img src="images/course/angular.png">
+</br/>
+<a href="#">Angular</a>
+<br/><br/>
+<button class="enroll" onclick="enrollme('Angular')">enroll</button>
+</div>
+
+
+<div class="coursediv">
+<img src="images/course/js.png">
+</br/>
+<a href="#">Java Script</a>
+<br/><br/>
+<button class="enroll"onclick="enrollme('JAva Script')">enroll</button>
+</div>
+
+
+<div class="coursediv">
+<img src="images/course/linux.png">
+</br/>
+<a href="#">LINUX</a>
+<br/><br/>
+<button class="enroll" onclick="enrollme('LINUX')">enroll</button>
+</div>
+
+
+<div class="coursediv">
+<img src="images/course/spring.png">
+</br/>
+<a href="#">Spring Framework</a>
+<br/><br/>
+<button class="enroll" onclick="enrollme('Spring Framework')">enroll</button>
+</div>
+
+</div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<hr/>
+<br/>
+<h1 class="sectitle" id="success">SUCCESS MILESTONES</h1>
+<br/>
+<div class="success">
+<marquee>
+<img src="images/course/c.png">
+<img src="images/course/java.png">
+<img src="images/course/jenkins.png">
+<img src="images/course/js.png">
+<img src="images/course/html.png">
+<img src="images/course/linux.png">
+<img src="images/course/spring.png">
+<img src="images/course/angular.png">
+<img src="images/course/c.png">
+<img src="images/course/java.png">
+<img src="images/course/jenkins.png">
+<img src="images/course/js.png">
+<img src="images/course/html.png">
+<img src="images/course/linux.png">
+<img src="images/course/spring.png">
+<img src="images/course/angular.png">
+</marquee>
+
+<br/>
+<br/>
+</div>
+
+<br/>
+<h1 class="sectitle" id="about us">About us</h1>
+<br/>
+<div class="about">
+	You can learn programming easy here with perfect documentation
+	<br/>
+	one can easily learn and understand programming in this website
+	<br/>
+	instagram: balavamsilanke
+	<br/>
+	phone no: 9391404565
+	<br/>
+	email:balavamsilanke1@gmail
+	<br/>
+</div>
+<br/><br/>
+</div>
+
+<div class="footer">
+
+<div class="part20">
+<h3>YouTube Channel Links</h3>
+<a href="#">C programminng</a></br>
+<a href="#">JAVA</a></br>
+<a href="#">ANGULAR</a></br>
+<a href="#">LINUX</a></br>
+</div>
+
+<div class="part20">
+<h3>Social Media Links</h3>
+<a href="#">Telegram</a></br>
+<a href="#">whatsapp</a></br>
+<a href="#">instagram</a></br>
+<a href="#">youtube</a></br>
+<a href="#">skype</a></br>
+
+
+</div>
+<div class="part40">
+<h3>Submit Your Requests</h3>
+<form>
+Email:<br/>
+<input type="email" class="footerform"><br/>
+Request:<br/>
+<textarea rows="10" cols="38"></textarea></br>
+<input type="submit" class="footerformbtn" value="Submit">
+
+
+
+
+
+</form>
+</div>
+
+
+</div>
+
+
+</body>
+</html>
